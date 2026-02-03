@@ -1,0 +1,8 @@
+gift add .
+git commit -m "initial commit - Nurizky-Maudy"
+git config --global user.name "Nurizky Maudy"
+git config --global user.email "nurizkymaudi@gmail.com"
+git remote add origin https://github.com/nurizkymaudi-arch/Nurizky-Maudy.git
+git remote -v
+git push -u origin master
+
