@@ -196,7 +196,8 @@
                      <label for="inputJENISKELAMINrd5" class="form-label">JENIS KELAMIN</label>
                      <input type="JENISKELAMIN" id="inputJENISKELAMINrd5" class="form-control" aria-describedby="JENISKELAMINHelpBlock">
                      <div id="JENISKELAMINHelpBlock" class="form-text">
-                       </form>
+                      </form>
+                      <a class="btn btn-primary">Simpan</a>
                     </div>
                         
                 </div>

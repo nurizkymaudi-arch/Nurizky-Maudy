@@ -43,7 +43,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -210,7 +210,7 @@
                                             <td>maudy@gmail.com</td>
                                             <td>Wanita</td>
                                             <td>
-                                                <a href="" class="btn btn-primary">edit</a>
+                                                <a href="editsiswa.php" class="btn btn-primary">edit</a>
                                                 <button class="btn btn-danger">hapus</button>
                                             </td>
                                             
