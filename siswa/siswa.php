@@ -203,18 +203,27 @@
                                     </thead>
 
                                     <tbody>
+                                        <?php
+                                        include '../database.php';
+                                        $i = 1;
+                                        $data = mysqli_query($koneksi, "SELECT * FROM siswa");
+                                        while($d = mysqli_fetch_array($data)) {
+                                            ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>Nurizky Maudy</td>
-                                            <td>123456</td>
-                                            <td>maudy@gmail.com</td>
-                                            <td>Wanita</td>
+                                            <td><?php echo $i++ ?></td>
+                                            <td><?php echo $d['nisn']; ?></td>
+                                            <td><?php echo $d['nama']; ?></td>
+                                            <td><?php echo $d['email']; ?></td>
+                                            <td><?php echo $d['jk']; ?></td>
                                             <td>
                                                 <a href="editsiswa.php" class="btn btn-primary">edit</a>
                                                 <button class="btn btn-danger">hapus</button>
                                             </td>
                                             
                                         </tr>
+                                        <?php
+                                        }
+                                        ?>
                                     </tbody>
                                 </table>
                             </div>
